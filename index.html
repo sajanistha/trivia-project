@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="setup-screen">
+            <h1>Trivia Time!</h1>
+            <input type="text" id="username" placeholder="Enter your name">
+            <button onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+            <h2 id="question-text">Question goes here</h2>
+            <div id="answer-buttons"></div>
+            <p>Score: <span id="current-score">0</span></p>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h2>Finish!</h2>
+            <p id="final-message"></p>
+            <button onclick="location.reload()">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

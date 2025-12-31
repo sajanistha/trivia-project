@@ -1,0 +1,6 @@
+body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f2f5; }
+#game-container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 350px; text-align: center; }
+.hidden { display: none; }
+button { display: block; width: 100%; padding: 10px; margin: 10px 0; cursor: pointer; border: 1px solid #ddd; border-radius: 5px; background: #fff; transition: 0.3s; }
+button:hover { background: #e7f3ff; border-color: #007bff; }
+input { padding: 10px; width: 80%; margin-bottom: 10px; }
